@@ -87,7 +87,7 @@ MI drīkst palīdzēt uzrakstīt piezīmi. Punktus dod tikai konkrēti pierādī
 |---|---|
 | "Pārbaudīju MI kodu." | "Claude atgrieza 400, ne 409. Tests `test_cra_ac4_second_withdraw_409` krita, es izlaboju." |
 | "Visi testi iet cauri." | "Sabotāža: noņēmu statusa pārbaudi `app/main.py:140`, tests `test_cra_ac3_answered_409` kļuva sarkans." |
-| "Drošības problēmu nav." | "Atradums (jālabo): `app/omd_client.py:NN` OMD izsaukumam nav noildzes (timeout), pieprasījums karājas. Labots, tests `test_cr2_timeout_gives_pending`." |
+| "Drošības problēmu nav." | "Atradums (jālabo): `app/omd_client.py:NN` OMD izsaukumam nav noildzes (timeout), pieprasījums karājas. Labots, tests `test_cr2_ac4_client_uses_3_second_timeout`." |
 
 ## 7. Vērtēšana: 30 punkti
 
